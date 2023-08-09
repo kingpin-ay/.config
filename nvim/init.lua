@@ -10,4 +10,4 @@ require('kingpin-ay.treesitter')
 require("kingpin-ay.nvimtree")
 require("kingpin-ay.gitsigns")
 require("kingpin-ay.comment")
-
+require("kingpin-ay.null-ls")
