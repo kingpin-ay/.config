@@ -47,7 +47,10 @@ return packer.startup(function(use)
 
   use "lunarvim/colorschemes" -- A colorschemes palet for luner vim
   use "folke/tokyonight.nvim"
-
+  use {
+    "windwp/nvim-autopairs",
+      config = function() require("nvim-autopairs").setup {} end
+  }
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
   use "hrsh7th/cmp-buffer" -- buffer completions

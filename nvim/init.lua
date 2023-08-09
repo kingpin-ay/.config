@@ -5,4 +5,6 @@ require('kingpin-ay.colorscheme')
 require('kingpin-ay.cmp')
 require('kingpin-ay.lsp_config')
 require('kingpin-ay.telescope')
-require 'kingpin-ay.treesitter'
+require("kingpin-ay.autopairs")
+require('kingpin-ay.treesitter')
+
