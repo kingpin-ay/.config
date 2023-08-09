@@ -79,7 +79,8 @@ return packer.startup(function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
-
+  -- Toggle Terminal
+  use 'akinsho/toggleterm.nvim'
   -- Nvim-tree
   use "nvim-tree/nvim-tree.lua"
   use "nvim-tree/nvim-web-devicons"
