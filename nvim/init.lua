@@ -7,4 +7,7 @@ require('kingpin-ay.lsp_config')
 require('kingpin-ay.telescope')
 require("kingpin-ay.autopairs")
 require('kingpin-ay.treesitter')
+require("kingpin-ay.nvimtree")
+require("kingpin-ay.gitsigns")
+require("kingpin-ay.comment")
 

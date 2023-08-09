@@ -58,7 +58,8 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-cmdline" -- cmdline completions
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
   use "hrsh7th/cmp-nvim-lua"
-  
+  use "numToStr/Comment.nvim" -- ease in commenting
+  use 'JoosepAlviste/nvim-ts-context-commentstring' -- commenting in jsx 
   -- LSP
   use {
       "williamboman/mason.nvim",
@@ -78,6 +79,14 @@ return packer.startup(function(use)
     "nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
   }
+
+  -- Nvim-tree
+  use "nvim-tree/nvim-tree.lua"
+  use "nvim-tree/nvim-web-devicons"
+
+  -- Gitsigns
+  use "lewis6991/gitsigns.nvim"
+  
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
   use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
