@@ -35,6 +35,10 @@ vim.opt.sidescrolloff = 8
 vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
 
 vim.opt.shortmess:append "c"
+-- for nvim tree only
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
