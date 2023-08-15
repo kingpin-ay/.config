@@ -48,7 +48,7 @@ require('lazy').setup({
       "nvim-tree/nvim-web-devicons",
     },
     config = function()
-      require("nvim-tree").setup {}
+      require("lowcost.nvimtree")
     end,
   },
   {
