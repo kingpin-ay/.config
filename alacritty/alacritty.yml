@@ -67,11 +67,11 @@ colors:
     - { index: 21, color: '0xeee8d5' }
 
 # this is the keybinding section
-# key_bindings:
+key_bindings:
 #     # (Windows, Linux, and BSD only)
-#   - { key: V,        mods: Control|Shift, action: Paste            }
-#   - { key: C,        mods: Control|Shift, action: Copy             }
-#   - { key: Insert,   mods: Shift,         action: PasteSelection   }
+  - { key: V,        mods: Control|Shift, action: Paste            }
+  - { key: C,        mods: Control|Shift, action: Copy             }
+  - { key: Insert,   mods: Shift,         action: PasteSelection   }
 #   - { key: Key0,     mods: Control,       action: ResetFontSize    }
 #   - { key: Equals,   mods: Control,       action: IncreaseFontSize }
 #   - { key: Add,      mods: Control,       action: IncreaseFontSize }
