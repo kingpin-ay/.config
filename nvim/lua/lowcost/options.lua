@@ -2,7 +2,9 @@ vim.o.hlsearch = false
 
 -- Make line numbers default
 vim.wo.number = true
-
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = true
 -- Enable mouse mode
 vim.o.mouse = 'a'
 
@@ -39,3 +41,4 @@ vim.g.loaded_netrwPlugin = 1
 
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
+vim.cmd.colorscheme 'onedark'
